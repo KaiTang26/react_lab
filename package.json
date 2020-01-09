@@ -1,0 +1,23 @@
+{
+  "name": "react_lab",
+  "version": "1.0.0",
+  "description": "#test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiTang26/react_lab.git"
+  },
+  "author": "Kai Tang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaiTang26/react_lab/issues"
+  },
+  "homepage": "https://github.com/KaiTang26/react_lab#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
