@@ -4,7 +4,8 @@
   "description": "#test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,20 @@
   },
   "homepage": "https://github.com/KaiTang26/react_lab#readme",
   "devDependencies": {
+    "css-loader": "^3.4.1",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.1.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
